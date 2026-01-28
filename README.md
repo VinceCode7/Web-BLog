@@ -21,7 +21,7 @@ MyProject is a tech web blog
 4. Also at the end of the partial news of the article there is a 'continue to read' which is a link to the whole new article.
 
 ## Issues
-1. The navigation bar contents does not lead to any place. In short there are not responsive
+1. The navigation bar contents does not lead to any place(a web page) . In short they are not responsive
 
 ## Contributors
 Special thanks to me for the effort of creating my first web project. Simple but a lot of time was invested to the project.
