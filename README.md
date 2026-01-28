@@ -2,7 +2,7 @@
 ## MyProject
 MyProject is a tech web blog
 - It displays the articles in a card format with a partial news and contains a link to the whole article if a person is interested with the article.
-- The Project contain a folder called praco, that has the html files of the news article and the home page called WebBlog.html.
+- The Project contain a folder called Praco, that has the html files of the news article and the home page called WebBlog.html.
 - The file also contains a folder that holds the images of the new article called images.
 
  FEATURES
@@ -12,7 +12,7 @@ MyProject is a tech web blog
  4. Main page with links to article
  5. Emojis
  6. Styling Card borders
- 7.A navigation panel
+ 7. A navigation panel
 
 ## Usage
 1. Open the open the main page WebBlog.html.
