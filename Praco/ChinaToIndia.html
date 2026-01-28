@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+    img{
+    float:left;
+    width:600px;
+    height:400px;
+    padding:5px;
+    }
+    article{
+        font-size:20px;
+        background-color: lightgrey;
+       
+    }
+    h2{
+        color: rgb(32, 164, 32);
+        text-shadow: 2px 2px 5px red;
+    
+    }
+    </style>
+</head>
+<body style="background-color:lightgrey;">
+        <article style="border-style:inset;border-color:black;border-radius: 10px;border-width:5px;padding:5px;">
+    <h2 >India hit by China-linked phishing campaign, unleashes malware to create long-term spy backdoor</h2>
+    <img src="images/ChinaToIndia.png" alt="A picture of an asian map with a dragon attacking India">
+    A newly-uncovered espionage campaign aimed at targeted individuals is using phishing emails that impersonate the Government of India.
+While the campaign uses a well-known banking trojan, it appears that the goal is to establish <b>long-term access to victims’ computers</b> for surveillance and data collection purposes, rather than immediate financial theft.<br><br>
+The activity was identified by eSentire’s Threat Response Unit in early December 2025 and begins with messages designed to lure recipients into downloading a malicious archive.<br><br>
+The emails appear as penalty notices from the Indian government’s tax office. Once opened, the file triggers a multi-stage infection chain that investigators describe as unusually deliberate and technically mature.<br><br>
+The research, authored by cyber security researcher Vishavjit Singh, says the attackers’ main goal is <mark>“persistent, elevated access”</mark> that enables continuous monitoring of a victim’s device, including user activity, file operations and the potential exfiltration of sensitive information.<br><br>
+The intrusion starts by abusing a trusted Windows process to hide its entry point. Attackers run a legitimate, signed Microsoft application but “side-load” a malicious file alongside it, piggybacking on to the software that appears safe to the operating system and some security controls.<br><br>
+The first-stage loader also performs extensive anti-analysis checks — a common sign, Singh notes, that the bad actor anticipates defenders will investigate.<br><br>
+If those checks are passed, the malware calls back to attacker-controlled infrastructure to retrieve a second payload, described as a packed shellcode that unpacks itself in memory to reduce its footprint on disk.<br><br>
+From there, it escalates privileges and attempts to blend into normal system behavior.
+The report highlights a “file-less COM-based” User Account Control bypass, which is used to grant administrator rights, along with “ process masquerading” that makes the malware resemble Windows explorer.exe in monitoring tools.
+
+        </article>
+</body>
+</html>

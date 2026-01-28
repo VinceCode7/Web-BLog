@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oracle Vuln</title>
+     <style>
+    img{
+    float:left;
+    width:600px;
+    height:400px;
+    padding:5px;
+    }
+    article{
+        font-size:20px;
+        background-color: lightgrey;
+       
+    }
+    h2{
+        color: rgb(32, 164, 32);
+        text-shadow: 2px 2px 5px red;
+    
+    }
+    </style>
+</head>
+<body style="background-color:lightgrey;">
+      <article style="border-style:inset;border-color:black;border-radius: 10px;border-width:5px;padding:5px;">
+<h2>Critical Oracle WebLogic Server Proxy Vulnerability Lets Attackers Compromise the Server</h2>
+<img src="images/OracleVuln.png" alt="picture with the word Oracle">
+Oracle has disclosed a <mark>severe security vulnerability </mark>affecting its <b>Fusion Middleware suite</b>, specifically targeting the <mark>Oracle HTTP Server</mark> and the<mark>Oracle WebLogic Server Proxy Plug-in.</mark> <br><br>
+Assigned <b>CVE-2026-21962</b>, this flaw carries the maximum severity rating and poses an immediate threat to enterprise environments that use these proxy components.<br><br>
+The vulnerability stems from a defect in how the WebLogic Server Proxy Plug-ins for Apache HTTP Server and Microsoft IIS handle incoming requests. Because the flaw is located in the proxy layer, it exposes critical infrastructure to unauthenticated, remote exploitation without requiring user interaction.<br><br>
+This vulnerability is characterized by its low attack complexity and high impact. An unauthenticated attacker with network access via HTTP can exploit this flaw to bypass security controls entirely.<br><br>
+The issue impacts the Oracle HTTP Server and the WebLogic Server Proxy Plug-in, which are often deployed in DMZs to forward requests to backend WebLogic clusters.<br><br>
+According to the disclosure, the vulnerability allows for unauthorized access to critical data. Furthermore, it permits attackers to manipulate the integrity of the system, granting the ability to create, delete, or modify data accessible to the Oracle HTTP Server.<br><br>
+A significant aspect of this CVE is the <i>“Scope Change”</i> (S:C) metric in the CVSS vector. This indicates that while the vulnerability exists within the Proxy Plug-in, a successful exploit can impact resources and components beyond the plug-in itself, potentially allowing attackers to pivot into the backend WebLogic environment.<br><br>
+
+        </article>
+</body>
+</html>

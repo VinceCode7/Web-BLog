@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leak</title>
+ <style>
+    img{
+    float:left;
+    width:600px;
+    height:400px;
+    padding:5px;
+    }
+    article{
+        font-size:20px;
+        background-color: lightgrey;
+       
+    }
+    h2{
+        color: rgb(32, 164, 32);
+        text-shadow: 2px 2px 5px red;
+    
+    }
+    </style>
+</head>
+<body style="background-color:lightgrey;">
+     <article style="border-style:inset;border-color:black;border-radius: 10px;border-width:5px;padding:5px;">
+            <h2><a src="MajorLeak.html">Major leak exposes 149M credentials with Instagram, OnlyFans, TikTok passwords</a></h2>
+            <img src="images/CredentialLeak.png" alt="A picture of social media icons with on a broken glass">
+            An open database, likely storing data from credential-stealing malware, has exposed tens of millions of credentials. The data includes logins and passwords for popular services such as Facebook, Gmail, Netflix, Binance, and many others, researchers claim.
+            The exposed database contained a whopping 96GB of raw credential data that covers over 149 million unique logins and passwords, researchers at ExpressVPN discovered. According to the research author, Jeremiah Fowler, the data also included URLs linking to specific services and accounts.
+            “This is not the first dataset of this kind I have discovered, and it only highlights the global threat posed by credential-stealing malware. When data is collected, stolen, or harvested, it must be stored somewhere, and a cloud-based repository is usually the best solution,” Fowler writes.
+            Credential-stealing malware, Fowler describes, also known as infostealer, is a type of malware that quietly sneaks onto user devices and collects credentials. Collected data is then sent to attackers’ databases. Later, malicious actors exploit the information to take over accounts and syphon funds.
+            “I also saw a large number of streaming and entertainment accounts, including Netflix, HBOmax, Disney+, Roblox, and more. Financial services accounts, crypto wallets or trading accounts, banking and credit card logins also appeared in the limited sample of records I reviewed,” Fowler said.
+            According to Fowler, the dataset also included credentials associated with government accounts. At least in theory, malicious actors could utilize the leaked data to access sensitive government systems, which often house large amounts of sensitive personally identifiable (PII) data. 
+            Malicious actors could also use government email addresses for targeted phishing attacks, which could result in malware being deployed on government networks.
+            The database did not have any ownership information, and the researcher reported the issue directly to the hosting provider. The hosting provider replied, saying that the IP is hosted by an independent subsidiary.
+            <a href="MajorLeak.html">continue to read</a> 
+        </article>
+</body>
+</html>
